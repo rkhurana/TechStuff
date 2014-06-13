@@ -18,6 +18,7 @@ public class TestStringUtils {
 
 	/**
 	 * Test method to test isEqual() method
+	 * In this, we have passed two strings and checking it whether they are equal or not.
 	 */
 	@Test
 	public void testIsEqual() {
