@@ -36,12 +36,9 @@ public class StringUtils {
 	 */
 	public boolean isEqual(String str1, String str2){
 		boolean isEqual = false;
-		// Ensure the strings are not null
-		if(!isEmpty(str1) && !isEmpty(str2)){
 			// Checks if two strings are equal
 			if(str1.equals(str2)){
 				isEqual = true;
-			}
 		}
 		return isEqual;
 	}

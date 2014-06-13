@@ -1,22 +1,30 @@
 package com.self.pms.common.util;
 
-import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+
 /**
- * Added the test class for StringUtils class.
- * /
+ * This is a test class to test all the methods available in {@link StringUtils} class.
+ * 
+ * @author Rohit Khurana
+ *
+ */
 public class TestStringUtils {
 
-	@Test
+	//@Test
 	public void testIsEmpty() {
-		fail("Not yet implemented");
 	}
 
+	/**
+	 * Test method to test isEqual() method
+	 */
 	@Test
 	public void testIsEqual() {
-		fail("Not yet implemented");
+		String str1 = "Welcome";
+		String str2 = "Welcome";
+		boolean isEqual = new StringUtils().isEqual(str1, str2);
+		System.out.println("The result is: "+ isEqual);
 	}
 
 }
