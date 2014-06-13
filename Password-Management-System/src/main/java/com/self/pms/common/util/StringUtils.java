@@ -26,4 +26,24 @@ public class StringUtils {
 		
 		return isEmpty;
 	}
+	
+	/**
+	 * This method checks whether two strings are equal or not.
+	 * 
+	 * @param str1
+	 * @param str2
+	 * @return true if equal otherwise false
+	 */
+	public boolean isEqual(String str1, String str2){
+		boolean isEqual = false;
+		// Ensure the strings are not null
+		if(!isEmpty(str1) && !isEmpty(str2)){
+			// Checks if two strings are equal
+			if(str1.equals(str2)){
+				isEqual = true;
+			}
+		}
+		return isEqual;
+	}
+	
 }
