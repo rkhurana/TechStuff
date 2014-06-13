@@ -23,6 +23,7 @@ public class StringUtils {
 		if(str != null && str.length() > 0){
 			isEmpty = true;
 		}
+		// true if empty otherwise false
 		return isEmpty;
 	}
 }
