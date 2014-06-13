@@ -4,6 +4,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+/**
+ * Added the test class for StringUtils class.
+ * /
 public class TestStringUtils {
 
 	@Test
